@@ -16,11 +16,9 @@ Gem::Specification.new do |s|
     "README.md"
   ]
   s.files = [
-    ".DS_Store",
     "README.md",
     "Rakefile",
     "VERSION",
-    "lib/.DS_Store",
     "lib/sendgrid_toolkit.rb",
     "lib/sendgrid_toolkit/abstract_sendgrid_client.rb",
     "lib/sendgrid_toolkit/bounces.rb",
@@ -32,9 +30,7 @@ Gem::Specification.new do |s|
     "lib/sendgrid_toolkit/statistics.rb",
     "lib/sendgrid_toolkit/unsubscribes.rb",
     "sendgrid_toolkit.gemspec",
-    "spec/.DS_Store",
     "spec/helper.rb",
-    "spec/lib/.DS_Store",
     "spec/lib/sendgrid_toolkit/abstract_sendgrid_client_spec.rb",
     "spec/lib/sendgrid_toolkit/bounces_spec.rb",
     "spec/lib/sendgrid_toolkit/common_spec.rb",
@@ -49,7 +45,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/freerobby/sendgrid_toolkit}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
-  s.summary = %q{A Ruby wrapper and utility library for communicating with the Sendgrid API}
+  s.summary = %q{Ruby wrapper for the Sendgrid API}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
